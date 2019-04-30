@@ -1,0 +1,30 @@
+node
+{
+    def mavenHome = tool name: 'Maven3.6.1', type: 'maven'
+    stage ('Checkout from Github')
+    {
+        git credentialsId: '171a8a28-d0b6-4eec-be3f-b4cfed7871b1', url: 'https://github.com/kayessor/Maven-Web-App.git'
+    }
+    
+    stage ('Build')
+    {
+        sh "${mavenHome}/bin/mvn clean package"
+    }
+    
+    stage ('Execute SonarQube Server')
+    {
+        sh "${mavenHome}/bin/mvn sonar:sonar"
+    }
+    
+    stage ('Artifact stored to Nexus Repository')
+    {
+        sh "${mavenHome}/bin/mvn deploy"
+    }
+    
+    
+    stage('Deploy to Tomcat')
+    {
+        sh "cp $WORKSPACE/target/*.war /opt/maven/webapps/"
+    }
+    
+}

@@ -24,7 +24,7 @@ node
     
     stage('Deploy to Tomcat')
     {
-        sh "scp ${WORKSPACE}/target/*.war root@13.233.77.247:/home/ec2-user/tomcat/apache-tomcat-9.0.17/webapps/"
+        sh "scp ${WORKSPACE}/target/*.war root@13.126.34.18:/home/ec2-user/tomcat/apache-tomcat-9.0.17/webapps/"
     }
     
 }

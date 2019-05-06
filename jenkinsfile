@@ -1,5 +1,12 @@
 node
 {
+    properties([
+    buildDiscarder(logRotator(numToKeepStr: '3')),
+    pipelineTriggers([
+    pollSCM('* * * * *')
+    ])
+])
+
     def mavenHome = tool name: 'Maven3.6.1', type: 'maven'
     stage ('Checkout from Github')
     {

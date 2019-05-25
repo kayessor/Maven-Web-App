@@ -90,12 +90,12 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>KSR Releases</name>
-	      <url>http://13.127.128.129:8081/repository/Selva-Releases/</url>
+	      <url>http://52.66.177.19:8081/repository/Selva-Releases/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>KSR Snapshots</name>
-	      <url>http://13.127.128.129:8081/repository/Selva-Snapshots/</url>
+	      <url>http://52.66.177.19:8081/repository/Selva-Snapshots/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	

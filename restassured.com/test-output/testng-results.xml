@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[{"data":{"orgName":"Acer","siteName":"321","startDate":"08-10-2019","endDate":"16-10-2019","regularizedData":[{"date":"08-10-2019","scenario1":[],"scenario2":[],"scenario3":[],"scenario4":[],"scenario5":[]},{"date":"09-10-2019","scenario1":[],"scenario2":[],"scenario3":[{"employeeId":"ASF2105751","employeeName":"Yoganya"}],"scenario4":[{"employeeId":"ID041218C491","employeeName":"Lalitha S"}],"scenario5":[]},{"date":"10-10-2019","scenario1":[],"scenario2":[{"employeeId":"1000292","employeeName":"A Kiran"}],"scenario3":[],"scenario4":[],"scenario5":[{"employeeId":"ID041218C491","employeeName":"Lalitha S"}]},{"date":"11-10-2019","scenario1":[],"scenario2":[],"scenario3":[],"scenario4":[],"scenario5":[]},{"date":"12-10-2019","scenario1":[],"scenario2":[],"scenario3":[],"scenario4":[],"scenario5":[]},{"date":"13-10-2019","scenario1":[],"scenario2":[],"scenario3":[],"scenario4":[],"scenario5":[]},{"date":"14-10-2019","scenario1":[{"employeeId":"QSD564F","employeeName":"Selvarajan"}],"scenario2":[{"employeeId":"1000292","employeeName":"A Kiran"}],"scenario3":[{"employeeId":"ID041218C491","employeeName":"Lalitha S"}],"scenario4":[{"employeeId":"ID180618C44","employeeName":"Brinda D"},{"employeeId":"ID041218C479","employeeName":"Gemini S"},{"employeeId":"ID041218C478","employeeName":"Wasim R"}],"scenario5":[{"employeeId":"ID041218C489","employeeName":"Nithya S"},{"employeeId":"ID161118C456","employeeName":"Sridevi D"}]},{"date":"15-10-2019","scenario1":[],"scenario2":[],"scenario3":[],"scenario4":[],"scenario5":[]},{"date":"16-10-2019","scenario1":[],"scenario2":[],"scenario3":[],"scenario4":[],"scenario5":[]}]},"messages":[]}]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-01-06T18:39:09 IST" name="Default suite" finished-at="2020-01-06T18:39:17 IST" duration-ms="7496">
+    <groups>
+    </groups>
+    <test started-at="2020-01-06T18:39:09 IST" name="Default test" finished-at="2020-01-06T18:39:17 IST" duration-ms="7496">
+      <class name="restassured.com.getRegularisedEmployeedata">
+        <test-method signature="GetPAN()[pri:0, instance:restassured.com.getRegularisedEmployeedata@341b80b2]" started-at="2020-01-06T18:39:09 IST" name="GetPAN" finished-at="2020-01-06T18:39:17 IST" duration-ms="7427" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[{"data":{"orgName":"Acer","siteName":"321","startDate":"08-10-2019","endDate":"16-10-2019","regularizedData":[{"date":"08-10-2019","scenario1":[],"scenario2":[],"scenario3":[],"scenario4":[],"scenario5":[]},{"date":"09-10-2019","scenario1":[],"scenario2":[],"scenario3":[{"employeeId":"ASF2105751","employeeName":"Yoganya"}],"scenario4":[{"employeeId":"ID041218C491","employeeName":"Lalitha S"}],"scenario5":[]},{"date":"10-10-2019","scenario1":[],"scenario2":[{"employeeId":"1000292","employeeName":"A Kiran"}],"scenario3":[],"scenario4":[],"scenario5":[{"employeeId":"ID041218C491","employeeName":"Lalitha S"}]},{"date":"11-10-2019","scenario1":[],"scenario2":[],"scenario3":[],"scenario4":[],"scenario5":[]},{"date":"12-10-2019","scenario1":[],"scenario2":[],"scenario3":[],"scenario4":[],"scenario5":[]},{"date":"13-10-2019","scenario1":[],"scenario2":[],"scenario3":[],"scenario4":[],"scenario5":[]},{"date":"14-10-2019","scenario1":[{"employeeId":"QSD564F","employeeName":"Selvarajan"}],"scenario2":[{"employeeId":"1000292","employeeName":"A Kiran"}],"scenario3":[{"employeeId":"ID041218C491","employeeName":"Lalitha S"}],"scenario4":[{"employeeId":"ID180618C44","employeeName":"Brinda D"},{"employeeId":"ID041218C479","employeeName":"Gemini S"},{"employeeId":"ID041218C478","employeeName":"Wasim R"}],"scenario5":[{"employeeId":"ID041218C489","employeeName":"Nithya S"},{"employeeId":"ID161118C456","employeeName":"Sridevi D"}]},{"date":"15-10-2019","scenario1":[],"scenario2":[],"scenario3":[],"scenario4":[],"scenario5":[]},{"date":"16-10-2019","scenario1":[],"scenario2":[],"scenario3":[],"scenario4":[],"scenario5":[]}]},"messages":[]}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GetPAN -->
+      </class> <!-- restassured.com.getRegularisedEmployeedata -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
